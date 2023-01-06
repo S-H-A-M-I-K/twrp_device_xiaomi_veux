@@ -29,12 +29,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from veux device
-$(call inherit-product, device/xiaomi/veux/device.mk)
+$(call inherit-product, device/xiaomi/veux/device_veux.mk)
+
+# V A/B
+ENABLE_VIRTUAL_AB := true
+$(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := veux
-PRODUCT_NAME := twrp_veux
+PRODUCT_DEVICE := $(PRODUCT_RELEASE_NAME)
+PRODUCT_NAME := twrp_$(PRODUCT_RELEASE_NAME)
 PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := VEUX
-PRODUCT_MANUFACTURER := Redmi Note 11 Pro 5G
+PRODUCT_MODEL := Redmi Note 11 Pro 5G
+PRODUCT_PLATFORM := holi
+PRODUCT_MANUFACTURER := Xiaomi
 

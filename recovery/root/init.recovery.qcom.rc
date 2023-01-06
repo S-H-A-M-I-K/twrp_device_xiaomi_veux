@@ -1,0 +1,31 @@
+import /init.recovery.qcom_decrypt.rc
+    
+on init
+    write /sys/class/backlight/panel0-backlight/brightness 200
+
+on fs
+    wait /dev/block/platform/soc/${ro.boot.bootdevice}
+    symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
+
+on post-fs
+    start boot-hal-1-1
+
+on boot
+    start unified-script
+    start health-hal-2-1
+    start vendor.qti.vibrator
+    setprop sys.usb.config adb
+
+service unified-script /system/bin/unified-script.sh
+    user root
+    group root
+    disabled
+    oneshot
+    seclabel u:r:recovery:s0
+
+service vendor.qti.vibrator /system/bin/vendor.qti.hardware.vibrator.service
+    user root
+    group root
+    disabled
+    setenv LD_LIBRARY_PATH /vendor/lib64:/vendor/lib:/system/lib64:/system/lib:/sbin
+    seclabel u:r:recovery:s0

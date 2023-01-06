@@ -22,9 +22,6 @@ TW_BACKUP_EXCLUSIONS := /data/fonts
 # Debugging
 TWRP_INCLUDE_LOGCAT := true
 
-# Event Log
-TW_EVENT_LOGGING := true
-
 # Crypto
 TW_USE_FSCRYPT_POLICY := 2
 TW_INCLUDE_CRYPTO := true
@@ -32,4 +29,4 @@ TW_INCLUDE_CRYPTO_FBE := true
 TW_INCLUDE_FBE_METADATA_DECRYPT := true
 
 # Version
-TW_DEVICE_VERSION := Test-2
+TW_DEVICE_VERSION := Alpha-1

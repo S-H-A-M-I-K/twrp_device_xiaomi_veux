@@ -21,4 +21,5 @@ Device Tree for:
 ## TWRP Status
 To be edited...
 
-## Other Stufd
+## Other Stuff
+To be edited...

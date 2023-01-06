@@ -1,11 +1,4 @@
-## Team Win Recovery Project
-Device Tree for:
-- POCO X4 Pro 5G
-- Redmi Note 11E Pro
-- Redmi Note 11 Pro 5G
-- Redmi Note 11 Pro+ 5G (India)
-
-## Device Information
+## Team Win Recovery Project : Veux
 
 | Feature                 | Specification                                                              |
 | :---------------------- | :--------------------------------                                          |
@@ -16,7 +9,6 @@ Device Tree for:
 | Shipped Software        | Android 11, MIUI 13                                                        |
 | Storage                 | 64 GB / 256 GB                                                             |
 
-![POCO X4 Pro 5G/Redmi Note 11E Pro/Redmi Note 11 Pro 5G/Redmi Note 11 Pro+ 5G](https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-poco-x4-pro-2.jpg "POCO X4 Pro 5G/Redmi Note 11E Pro/Redmi Note 11 Pro 5G/Redmi Note 11 Pro+ 5G")
 
 ## Working Feature
 - Internal Storage (Decrypted)
@@ -34,3 +26,5 @@ Device Tree for:
 
 ## Reminder
 - To be edited...
+
+![POCO X4 Pro 5G/Redmi Note 11E Pro/Redmi Note 11 Pro 5G/Redmi Note 11 Pro+ 5G](https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-poco-x4-pro-2.jpg "POCO X4 Pro 5G/Redmi Note 11E Pro/Redmi Note 11 Pro 5G/Redmi Note 11 Pro+ 5G")

@@ -1,4 +1,6 @@
 ## Team Win Recovery Project : Veux
+![POCO X4 Pro 5G/Redmi Note 11E Pro/Redmi Note 11 Pro 5G/Redmi Note 11 Pro+ 5G](https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-poco-x4-pro-2.jpg "POCO X4 Pro 5G/Redmi Note 11E Pro/Redmi Note 11 Pro 5G/Redmi Note 11 Pro+ 5G")
+
 
 | Feature                 | Specification                                                              |
 | :---------------------- | :--------------------------------                                          |
@@ -24,7 +26,8 @@
 - FastbootD mode
 - Backup/Restore
 
-## Reminder
-- To be edited...
-
-![POCO X4 Pro 5G/Redmi Note 11E Pro/Redmi Note 11 Pro 5G/Redmi Note 11 Pro+ 5G](https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-poco-x4-pro-2.jpg "POCO X4 Pro 5G/Redmi Note 11E Pro/Redmi Note 11 Pro 5G/Redmi Note 11 Pro+ 5G")
+## Compatible Devices
+- POCO X4 Pro 5G
+- Redmi Note 11E Pro
+- Redmi Note 11 Pro 5G
+- Redmi Note 11 Pro+ 5G (India)

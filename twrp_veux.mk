@@ -29,7 +29,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from veux device
-$(call inherit-product, device/xiaomi/veux/device_veus.mk)
+$(call inherit-product, device/xiaomi/veux/device_veux.mk)
 
 # V A/B
 ENABLE_VIRTUAL_AB := true

@@ -18,8 +18,19 @@ Device Tree for:
 
 ![POCO X4 Pro 5G/Redmi Note 11E Pro/Redmi Note 11 Pro 5G/Redmi Note 11 Pro+ 5G](https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-poco-x4-pro-2.jpg "POCO X4 Pro 5G/Redmi Note 11E Pro/Redmi Note 11 Pro 5G/Redmi Note 11 Pro+ 5G")
 
-## TWRP Status
-To be edited...
+## Working Feature
+- Internal Storage (Decrypted)
+- Flashing .zip files like Magisk
+- External Storage (Micro SD)
 
-## Other Stuff
-To be edited...
+## Issues
+- Vibration
+- External Storage (USB OTG)
+
+## More Tests
+- MTP (Enable/Disable)
+- FastbootD mode
+- Backup/Restore
+
+## Reminder
+- To be edited...
